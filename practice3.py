@@ -43,7 +43,7 @@ animals = ['dogs','cats','chinchillas']
 for pets in animals:
     print(pets.title() + " would make a great pet!")
 print("These animals are all well domesticated!")
-"""
+
 print('---------------------------------------------------------------')
 
 
@@ -76,6 +76,47 @@ print (squares)
 
 squares = [value ** 2 for value in range(1,11)]
 print (squares)
+
+
+
+
+range1_20 = [print(values) for values in range(1,21)]
+
+for value in range(1,21):
+    print (value)
+
+
+one_mil = list(range(1, 1000001) )
+
+
+# for values in one_mil:
+#    print (values)
+
+
+
+print(sum(one_mil) )
+print(min(one_mil) )
+print(max(one_mil) )
+
+
+
+
+
+odd_num = list(range(1,20,2) )
+print (odd_num)
+for values in odd_num:
+    print(values)
+
+"""
+
+
+
+
+
+
+
+
+
 
 
 
