@@ -107,7 +107,27 @@ print (odd_num)
 for values in odd_num:
     print(values)
 
+
+
+
+# threes = [print(values * 3) for values in range(3, 30)]
+
+#for values in range(3,30):
+#    print(values * 3)
+
+
+cubes_1_10 = [print(values ** 3) for values in range(1,10) ]
+
+
+
+for values in range(1,11):
+    print (values ** 3)
+
 """
+
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+
+print(players[3:] )
 
 
 
