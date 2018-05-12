@@ -125,10 +125,25 @@ for values in range(1,11):
 
 """
 
-players = ['charles', 'martina', 'michael', 'florence', 'eli']
+#players = ['charles', 'martina', 'michael', 'florence', 'eli']
 
-print(players[3:] )
+#print(players[3:] )
 
+
+numbers_even = list(range(2, 20, 2) )
+print(numbers_even)
+
+
+squares = []
+for value in range(1,11):
+    squares.append(value ** 2)
+
+print(squares)
+
+numbers = list(range(1, 100000000) )
+print(min(numbers) )
+print(max(numbers) )
+print(sum(numbers) )
 
 
 
