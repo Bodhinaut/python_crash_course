@@ -1,4 +1,4 @@
-"""
+
 
 magic = ['fire','water','earth','wind']
 
@@ -123,7 +123,7 @@ cubes_1_10 = [print(values ** 3) for values in range(1,10) ]
 for values in range(1,11):
     print (values ** 3)
 
-"""
+
 
 #players = ['charles', 'martina', 'michael', 'florence', 'eli']
 
