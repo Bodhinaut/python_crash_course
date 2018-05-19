@@ -24,3 +24,6 @@ chapter 4 practice loops
 
 ### practice2
 * slicing, adding to lists, append, pop,
+
+### pypractice6
+* conditionals, 
