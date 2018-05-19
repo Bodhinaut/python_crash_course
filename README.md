@@ -18,3 +18,6 @@ chapter 4 practice loops
 
 ### practice3.py
 * practice with lists
+
+### pract3-pract4
+* tuples and loops
