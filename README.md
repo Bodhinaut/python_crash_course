@@ -21,3 +21,6 @@ chapter 4 practice loops
 
 ### pract3-pract4
 * tuples and loops
+
+### practice2
+* slicing, adding to lists, append, pop,
