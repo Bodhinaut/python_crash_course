@@ -15,3 +15,15 @@ chapter 4 practice loops
 
 ### factorial
 * returns and prints factorial of given number
+
+### practice3.py
+* practice with lists
+
+### pract3-pract4
+* tuples and loops
+
+### practice2
+* slicing, adding to lists, append, pop,
+
+### pypractice6
+* conditionals, 
