@@ -27,3 +27,6 @@ chapter 4 practice loops
 
 ### pypractice6
 * conditionals, 
+
+### practice_cont_chap6
+* lots of work with dictionary, and list, and nested dict and lists,
