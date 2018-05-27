@@ -13,7 +13,7 @@ chapter 4 practice loops
 *  find all numbers divisible by seven but are not a multiple of 5
  between num1 and num2
 
-### factorial
+### factorial - practice from Python Crash Course
 * returns and prints factorial of given number
 
 ### practice3.py
