@@ -64,4 +64,59 @@ while active:
 	else:
 		print(message)
 '''
+'''
+prompt = "\nPlease enter the name of a city you have visited:"
+prompt +=  "\n(Enter 'quit' when you are finished.) "
 
+
+while True:
+	city = input(prompt)
+
+	if city.lower() == 'quit':
+		break
+	else:
+		print("I'd love to go to " + city.title() + "!")
+'''
+'''
+current_num = 0
+while current_num < 10:
+	current_num += 1
+	if current_num % 2 == 0:
+		continue
+
+	print(current_num)
+'''
+'''
+prompt = "Please enter the toppings you want for your pizza: "
+prompt += "\n(Please enter QUIT when finished) : "
+
+while True:
+	message = input(prompt)
+	if message.upper() == 'QUIT':
+		print("Your pizza will be ready shortly!")
+		break
+	else:
+		print("Thank you for adding " + message + ", that topping will be delicious!")
+	
+'''
+
+while True:
+	try:
+		message = int(input("What is your age? : ") )
+	except ValueError:
+		print("Please tell me a real age, in integer format..")
+		continue
+
+	
+	if int(message) < 3:
+		print("Your ticket is free!")
+		break
+	elif int(message) > 3 and int(message) < 12:
+		print("Your ticket is $10, I know it's bullshit..")
+		break
+	elif int(message) > 12 and message < 100:
+		print("Your ticket comes to $12, I know, capitalism...")
+		break
+	elif message > 99:
+		print("Damn you old, just go in...")
+		break
