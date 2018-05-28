@@ -30,3 +30,6 @@ chapter 4 practice loops
 
 ### practice_cont_chap6
 * lots of work with dictionary, and list, and nested dict and lists,
+
+### practice7_CC.py
+* while loops, using the input() method, 
