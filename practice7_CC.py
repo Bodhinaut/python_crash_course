@@ -28,6 +28,8 @@ else:
 	print("Great, right this way!")
 
 '''
+
+'''
 number = input("Please, give me the Great Binary Buddha a number: ")
 number = int(number)
 
@@ -35,4 +37,31 @@ if number % 10 == 0:
 	print(str(number) + ", is a multiple of 10.")
 else:
 	print(str(number) + " is not a multiple of 10.")
+
+'''
+'''
+prompt = "\nTell me something, and I will repeat it back to you:"
+prompt += "\nEnter 'quit' to end the program : "
+
+message = ""
+while message.lower() != 'quit':
+	message = input(prompt)
+	if message.lower() != 'quit':
+		print(message)
+print("Program has ended.")
+print(message)
+'''
+'''
+prompt = "\nTell me something, and I will repeat it back to you:"
+prompt += "\nEnter 'quit' to end the program : "
+
+active = True
+while active:
+	message = input(prompt)
+
+	if message == 'quit':
+		active = False
+	else:
+		print(message)
+'''
 
