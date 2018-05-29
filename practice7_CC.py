@@ -141,9 +141,11 @@ while unconfirmed_users:
 
 '''
 
+'''
 name_mtn_quest = {}
 
 # Set a flag to indicate that polling is active
+
 
 polling_active = True
 
@@ -165,6 +167,8 @@ while polling_active:
 	print("\n--- Poll Results ---")
 	for name, mtn_quest in name_mtn_quest.items():
 		print(name.title() + " would like to climb " + mtn_quest.title() + ".")
+
+'''
 
 
 
