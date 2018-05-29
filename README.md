@@ -33,3 +33,7 @@ chapter 4 practice loops
 
 ### practice7_CC.py
 * while loops, using the input() method, 
+
+### mtn_poll
+* asks user for name, what moutain they would like to climb, stores in a dictionary dynamically using while loop, once the user has 
+not more info to enter it prints out the dictionary for the user
