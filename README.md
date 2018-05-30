@@ -38,6 +38,7 @@ chapter 4 practice loops
 * asks user for name, what moutain they would like to climb, stores in a dictionary dynamically using while loop, once the user has 
 not more info to enter it prints out the dictionary for the user
 
+---
 ### try_it_yourself_ch7.py
 
 * 7-8. Deli: Make a list called sandwich_orders and fill it with the names of various
@@ -55,3 +56,17 @@ in finished_sandwiches.
 * 7-10. Dream Vacation: Write a program that polls users about their dream
 vacation. Write a prompt similar to If you could visit one place in the world,
 where would you go? Include a block of code that prints the results of the poll.
+---
+
+### try_it_yourself_ch8.py
+
+Try It Yourself
+* 8-1. Message: Write a function called display_message() that prints one sentence
+telling everyone what you are learning about in this chapter. Call the
+function, and make sure the message displays correctly.
+* 8-2. Favorite Book: Write a function called favorite_book() that accepts one
+parameter, title. The function should print a message, such as One of my
+favorite books is Alice in Wonderland. Call the function, making sure to 
+include a book title as an argument in the function call.
+
+---
