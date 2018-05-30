@@ -38,6 +38,10 @@ chapter 4 practice loops
 * asks user for name, what moutain they would like to climb, stores in a dictionary dynamically using while loop, once the user has 
 not more info to enter it prints out the dictionary for the user
 
+### pract8_functions
+using functions, keyword arguments, positional arguments, setting up a function with a default parameter
+
+
 ---
 ### try_it_yourself_ch7.py
 
