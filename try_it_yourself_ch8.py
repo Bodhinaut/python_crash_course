@@ -24,9 +24,14 @@ make_shirt('m') # default with medium size
 make_shirt(text = 'Python for life') # only change text
 
 
-
-
-
-
+print("\n----------------------------------------------")
 
 # 8 - 5 Cities 
+
+
+def describe_city(city, country = "Ireland"):
+	print(city.title() + ", is in " + country.title() + ".")
+
+describe_city("reykjavik", "iceland")
+describe_city("dublin")
+describe_city("kilarney")
