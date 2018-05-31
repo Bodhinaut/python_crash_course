@@ -83,3 +83,23 @@ while True:
 	
 	print("Following are the albums info: " + str(formatted_album) + ".")
 	
+print("\n--------------------------------------------------\n")
+
+
+# 8-9, 8-10, 8-11 Magicians && Great Magicians && Unchanged Magicians
+
+magicians = ['blane', 'cris', 'blaze', 'schmendrick']
+
+def show_magicians(magicians):
+	for magician in magicians:
+		print("I am " + magician.title() + "!")
+
+
+def make_great(magicians):
+	for x in range(len(magicians) ):
+		magicians[x] = "The Great and Powerful " + magicians[x]
+	return magicians
+
+new_magicians = make_great(magicians[:])# this makes a copy, doesn't afftect original list
+show_magicians(magicians)
+show_magicians(new_magicians)
