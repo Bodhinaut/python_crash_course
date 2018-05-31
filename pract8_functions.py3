@@ -1,11 +1,15 @@
 # practice basic functions
-
+# greet_user has been modified to treat lists
 def greet_user(username):
 	"""Display a simple greeting"""
-	print("Hello " + username.title() + ", how are you?")
+	for name in username:
+		msg = "Hello " + name.title() + ", how are you?"
+		print(msg)
 
 
-greet_user("kyle")
+# greet_user("kyle") old method only accepted one user at a time, 
+usernames = ['hannah', 'amanda', 'kyle']
+greet_user(usernames)
 
 
 def describe_pet(pet_name, animal_type = 'dog'):
@@ -42,6 +46,7 @@ def build_person(first_name, last_name, age = ''):
 	return (person)
 
 martial_artist = build_person('bruce', 'lee', 'too young to have died')
+
 print (martial_artist)
 
 
@@ -66,3 +71,23 @@ while True:
 
 	formatted_name = get_formatted_name(f_name, l_name)
 	print("\nHello, " + formatted_name + "!")
+
+print("\n--------------------------------------------------\n")
+
+# Below, start with some desings that need to be printed. 
+unprinted_designs = ['iphone case', 'robot pendant', 'dodhecahedron']
+completed_models = []
+
+# Simulate printing each design, 
+# Move each design to complted_models after printing. 
+while unprinted_designs:
+	current_design = unprinted_designs.pop()
+	# Simulate creating a 3D print from the design.
+	print("\nPrinting model: " + current_design)
+	completed_models.append(current_design)
+
+	# Display all completed models.
+print("\nThe following models have been printed: ")
+for completed_models in completed_models:
+	print(completed_models)
+
