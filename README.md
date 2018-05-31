@@ -60,11 +60,12 @@ in finished_sandwiches.
 * 7-10. Dream Vacation: Write a program that polls users about their dream
 vacation. Write a prompt similar to If you could visit one place in the world,
 where would you go? Include a block of code that prints the results of the poll.
+* end ch7 try it yourself
 ---
 
 ### try_it_yourself_ch8.py
 
-Try It Yourself
+**Try It Yourself**
 * 8-1. Message: Write a function called display_message() that prints one sentence
 telling everyone what you are learning about in this chapter. Call the
 function, and make sure the message displays correctly.
@@ -75,7 +76,7 @@ include a book title as an argument in the function call.
 
 ---
 
-Try It Yourself
+**Try It Yourself**
 * 8-3. T-Shirt: Write a function called make_shirt() that accepts a size and the
 text of a message that should be printed on the shirt. The function should print
 a sentence summarizing the size of the shirt and the message printed on it.
@@ -93,7 +94,7 @@ default country.
 
 ---
 
-Try It Yourself
+**Try It Yourself**
 * 8-6. City Names: Write a function called city_country() that takes in the name
 of a city and its country. The function should return a string formatted like this:
 "Santiago, Chile"
@@ -116,3 +117,17 @@ that’s created. Be sure to include a quit value in the while loop.
 
 ---
 
+**Try It Yoursel**
+* 8-9. Magicians: Make a list of magician’s names. Pass the list to a function
+called show_magicians(), which prints the name of each magician in the list.
+* 8-10. Great Magicians: Start with a copy of your program from Exercise 8-9.
+Write a function called make_great() that modifies the list of magicians by adding
+the phrase the Great to each magician’s name. Call show_magicians() to
+see that the list has actually been modified.
+* 8-11. Unchanged Magicians: Start with your work from Exercise 8-10. Call the
+function make_great() with a copy of the list of magicians’ names. Because the
+original list will be unchanged, return the new list and store it in a separate list.
+Call show_magicians() with each list to show that you have one list of the original
+names and one list with the Great added to each magician’s name.
+
+---
