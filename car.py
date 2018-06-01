@@ -9,8 +9,23 @@ class Car():
 		self.odometer_reading = 0
 
 	def update_odometer(self, mileage):
-		"""Set the odometer reading to the given value."""
-		self.odometer_reading = mileage
+		"""
+		Set the odometer reading to the given value. 
+		Reject the change if it attempts to roll the odometer back.
+		"""
+		if mileage >= self.odometer_reading:
+			self.odometer_reading = mileage
+		else:
+			print("You can't roll back the odometer!")
+
+	def increment_odometer(self, miles):
+		"""Add given amount to the odometer reading."""
+		if miles < 0:
+			print("You cannot add negative miles!")
+		else:
+			self.odometer_reading += miles
+			print("You have updated your odometer to: " + str(self.odometer_reading) + ".")
+		
 
 	def get_descriptive_name(self):
 		"""Return a neatly formatted descriptive name."""
@@ -29,6 +44,9 @@ print("(---Below is set by instance---)")
 my_new_car.odometer_reading = 23
 my_new_car.read_odometer()
 print("(---Below is set by method---)")
-my_new_car.update_odometer(55)
+my_new_car.update_odometer(10)
+my_new_car.read_odometer()
+print("(---Below this is incremented by method---)")
+my_new_car.increment_odometer(1000)
 my_new_car.read_odometer()
 
