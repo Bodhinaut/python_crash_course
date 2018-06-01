@@ -103,3 +103,51 @@ def make_great(magicians):
 new_magicians = make_great(magicians[:])# this makes a copy, doesn't afftect original list
 show_magicians(magicians)
 show_magicians(new_magicians)
+
+
+print("\n--------------------------------------------------\n")
+# 8-12
+
+def make_sandwich(*fixins):
+	output = "\nMaking a sandwich with the follwing toppings: "
+	
+	for fixings in fixins:
+		output += "\n- " + fixings + ""
+
+	print(output)
+
+make_sandwich('pepperjack', 'peanut butter', 'mustard')
+make_sandwich('tofu')
+
+print("\n\n----------------------------------------------------\n")
+
+# 8 - 13 
+
+def build_profile(first, last, **user_info):
+	"""Build dictionary containing everytihn gwe know about a user. """
+	profile = {}
+	profile['first_name'] = first
+	profile['last_name'] = last
+	for key, value in user_info.items():
+		profile[key] = value
+	return profile
+
+user_profile = build_profile('kyle', 'shive',
+								 location = 'edwardsville',
+								 field = 'python developer')
+
+print(user_profile)
+
+# 8 - 14
+
+def build_car(manufacturer, model, **keyword_arguments):
+	car_info = {}
+	car_info['manufacturer'] = manufacturer
+	car_info['model'] = model
+
+	for key, value in keyword_arguments.items():
+		car_info[key] = value
+	return car_info
+
+car_profile = build_car('mazda', 'cx-700', color = 'silver', speakers = 'bose')
+print(car_profile)

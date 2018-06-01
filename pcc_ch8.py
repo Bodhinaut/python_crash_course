@@ -22,3 +22,29 @@ completed_models = []
 
 print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
+
+
+print("\n---------------------------------------------------------\n")
+
+def make_pizza(*toppings):
+	print(toppings)
+
+make_pizza("peppers")
+make_pizza('mushrooms', 'green peppers', 'extra cheese')
+
+
+ #  pass in as many name-value pairs as they want
+def build_profile(first, last, **user_info):
+	"""Build dictionary containing everytihn gwe know about a user. """
+	profile = {}
+	profile['first_name'] = first
+	profile['last_name'] = last
+	for key, value in user_info.items():
+		profile[key] = value
+	return profile
+
+user_profile = build_profile('albert', 'einstein',
+								 location = 'princeton',
+								 field = 'physics')
+
+print(user_profile)
