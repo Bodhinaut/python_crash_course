@@ -41,6 +41,9 @@ not more info to enter it prints out the dictionary for the user
 ### pract8_functions
 using functions, keyword arguments, positional arguments, setting up a function with a default parameter
 
+### ch9_classes
+modules, OOP, 
+
 
 ---
 ### try_it_yourself_ch7.py
