@@ -33,6 +33,6 @@ class Privleges():
 		[print (values) for values in self.privleges]
 
 
-kshive = Admin('kyle', 'shive','admin','lots of power')
-kshive.describe_user()
-kshive.privleges.show_privleges()
+#kshive = Admin('kyle', 'shive','admin','lots of power')
+#kshive.describe_user()
+#kshive.privleges.show_privleges()

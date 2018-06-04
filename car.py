@@ -1,3 +1,4 @@
+"""A class that can be used to represent a car."""
 class Car():
 	"""Simple attempt to represent a car."""
 
@@ -35,18 +36,4 @@ class Car():
 	def read_odometer(self):
 		"""Print a statment showing the car's milage."""
 		print("This car has " + str(self.odometer_reading) + " miles on it.")
-
-my_new_car = Car('audi', 'a4', 2016)
-print(my_new_car.get_descriptive_name() )
-my_new_car.read_odometer()
-
-print("(---Below is set by instance---)")
-my_new_car.odometer_reading = 23
-my_new_car.read_odometer()
-print("(---Below is set by method---)")
-my_new_car.update_odometer(10)
-my_new_car.read_odometer()
-print("(---Below this is incremented by method---)")
-my_new_car.increment_odometer(1000)
-my_new_car.read_odometer()
 
