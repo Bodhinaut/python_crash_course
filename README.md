@@ -120,7 +120,7 @@ that’s created. Be sure to include a quit value in the while loop.
 
 ---
 
-**Try It Yoursel**
+**Try It Yourself**
 * 8-9. Magicians: Make a list of magician’s names. Pass the list to a function
 called show_magicians(), which prints the name of each magician in the list.
 * 8-10. Great Magicians: Start with a copy of your program from Exercise 8-9.
@@ -245,5 +245,21 @@ should check the battery size and set the capacity to 85 if it isn’t already.
 Make an electric car with a default battery size, call get_range() once, and
 then call get_range() a second time after upgrading the battery. You should
 see an increase in the car’s range.
+
+---
+
+Try It Yourself
+* 9-10. Imported Restaurant: Using your latest Restaurant class, store it in a module.
+Make a separate file that imports Restaurant. Make a Restaurant instance,
+and call one of Restaurant’s methods to show that the import statement is working
+properly.
+* 9-11. Imported Admin: Start with your work from Exercise 9-8 (page 178).
+Store the classes User, Privileges, and Admin in one module. Create a separate
+file, make an Admin instance, and call show_privileges() to show that
+everything is working correctly.
+* 9-12. Multiple Modules: Store the User class in one module, and store the
+Privileges and Admin classes in a separate module. In a separate file, create
+an Admin instance and call show_privileges() to show that everything is still
+working correctly
 
 ---
