@@ -1,0 +1,4 @@
+I have learned how to create classes and modules in Python.
+Dictionaires in Python are quite useful. 
+Python is a dynamic programming language that is often used in data science and machine learning.
+Someday I plan on writing my own AI in Python. 
