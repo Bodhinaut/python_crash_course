@@ -307,7 +307,7 @@ each modified line to the screen.
 
 ---
 
-Try It Yourself
+**Try It Yourself**
 10-3. Guest: Write a program that prompts the user for their name. When they
 respond, write their name to a file called guest.txt.
 10-4. Guest Book: Write a while loop that prompts users for their name. When
